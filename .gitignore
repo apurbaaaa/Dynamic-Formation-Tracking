@@ -1,0 +1,74 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoint
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Data
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.h5
+*.parquet
+*.pkl
+*.joblib
+
+# Model artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+
+# Results and experiments
+runs/
+outputs/
+wandb/
+mlruns/
+tensorboard/
+events.out.tfevents.*
+
+# Docker
+docker/
+*.dockerfile
+*.tar
+*.img
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
